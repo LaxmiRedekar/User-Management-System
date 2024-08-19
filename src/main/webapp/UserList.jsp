@@ -68,8 +68,8 @@
              <td><%= user.getEmail()%>&nbsp;&nbsp;&nbsp;&nbsp;</td>
              <td><%= user.getCity()%>&nbsp;&nbsp;</td>
              <td>
-             <a href="<%= request.getContextPath()%>/edit?id=<%=user.getId()%>">EDIT</a>&nbsp;
-             <a href="<%= request.getContextPath()%>/delete?id=<%=user.getId()%>">DELETE</a></td>
+             <a href="<%= request.getContextPath()%>/edit?id=<%=user.getId()%>" class="btn" >EDIT</a>&nbsp;
+             <a href="<%= request.getContextPath()%>/delete?id=<%=user.getId()%>" class="btn" >DELETE</a></td>
            </tr>
         <%}
         %>
